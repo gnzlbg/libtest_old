@@ -17,7 +17,6 @@
 // this crate, which relies on this attribute (rather than the value of `--crate-name` passed by
 // cargo) to detect this crate.
 
-#![crate_name = "test"]
 #![unstable(feature = "test", issue = "27812")]
 #![doc(html_logo_url = "https://www.rust-lang.org/logos/rust-logo-128x128-blk-v2.png",
        html_favicon_url = "https://doc.rust-lang.org/favicon.ico",
